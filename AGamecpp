@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+		
+		int n1; int n2; int k1; int k2;
+		cin>> n1;
+		cin>> n2;
+		cin>> k1;
+		cin>> k2;
+		
+		while(true){
+			
+			if(n1 < 1) {cout<<"Second"; break;}
+			int p1;
+			cin>>p1;
+
+			n1 -= p1;
+			
+			
+			if(n2 < 1) {cout<<"First"; break;}
+			int p2;
+			cin>>p2;
+		
+				n2 -= p2;
+			
+		}
+		
+		return 0;
+	
+	
+	
+}
