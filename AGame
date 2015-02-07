@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class AGameRe {
+    public static void main(String[] args){ 
+         int n1; int n2; int k1; int k2;
+    
+         Scanner input = new Scanner(System.in);
+        
+         n1 = Integer.parseInt(input.next());
+         n2 = Integer.parseInt(input.next());
+         k1 = Integer.parseInt(input.next());
+         k2 = Integer.parseInt(input.next());
+         
+         while(n1 > 0 || n2 > 0){
+             
+             int p1 = Integer.parseInt(input.next());
+             n1 -= p1;
+             if(n1 < 1){System.out.println("Second"); break;}
+             
+             int p2 = Integer.parseInt(input.next());
+            
+             n2 -= p2;
+             if(n2 < 1){System.out.println("First"); break;}
+         }
+         
+    }
+} 
